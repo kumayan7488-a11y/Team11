@@ -24,7 +24,7 @@ import {
 } from "firebase/auth";
 import { auth, db } from "./firebase";
 import { cricketApi } from "./cricketApi";
-import { User, Contest, Match, WithdrawRequest, RedeemCode, AdminConfig, UserRole, WalletTransaction, PointRule, MatchScore, AppConfig, Player, DepositRequest } from '../types';
+import { User, Contest, Match, WithdrawRequest, RedeemCode, AdminConfig, UserRole, WalletTransaction, PointRule, MatchScore, AppConfig, Player, DepositRequest } from './types';
 
 const DEFAULT_ADMIN: AdminConfig = {
   email: 'kumayan7488@gmail.com',
