@@ -1,0 +1,5 @@
+{
+  "name": "Team 11 - Fantasy Cricket",
+  "description": "A complete Fantasy Cricket platform with dual User and Admin modes. Features contest joining, wallet management, withdrawal requests, and a comprehensive admin dashboard for managing the platform.",
+  "requestFramePermissions": []
+}
