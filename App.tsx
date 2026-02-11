@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { HashRouter, Routes, Route, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { Trophy, Wallet, User as UserIcon, Settings, Home, Gift, LogOut, CheckCircle, XCircle, Plus, Edit, ChevronLeft, Lock, Users, Activity, FileText, Smartphone, Mail, RefreshCw, Facebook, Instagram, Twitter, Camera, ChevronRight, HelpCircle, Share2, MessageCircle, Eye, EyeOff, Trash2, Link, UserPlus, Banknote, CreditCard, Upload, Clock, Ban } from 'lucide-react';
-import { backend } from './services/mockBackend';
+import { backend } from "./mockBackend"
 import { auth } from './services/firebase';
 import { RecaptchaVerifier, signInWithPhoneNumber, ConfirmationResult } from 'firebase/auth';
 import { User, UserRole, Contest, WithdrawRequest, Match, WalletTransaction, PointRule, MatchScore, AppConfig, SocialLink, Player, PlayerRole, DepositRequest } from './types';
