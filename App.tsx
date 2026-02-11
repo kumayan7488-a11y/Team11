@@ -5,9 +5,9 @@ import { backend } from "./mockBackend"
 import { auth } from './services/firebase';
 import { RecaptchaVerifier, signInWithPhoneNumber, ConfirmationResult } from 'firebase/auth';
 import { User, UserRole, Contest, WithdrawRequest, Match, WalletTransaction, PointRule, MatchScore, AppConfig, SocialLink, Player, PlayerRole, DepositRequest } from './types';
-import { Button } from './components/Button';
-import { Input } from './components/Input';
-import { AppLayout } from './components/AppLayout';
+import { Button } from './Button';
+import { Input } from './Input';
+import { AppLayout } from './AppLayout';
 
 // --- Contexts ---
 const AuthContext = React.createContext<{
