@@ -21,6 +21,7 @@ export interface Player {
 }
 
 const API_KEY = "9b1799f1-dbd3-4ad8-a4b8-e9050334a9a3";
+const offset = "0"
 const BASE_URL = "https://api.cricapi.com/v1";
 
 export const cricketApi = {
