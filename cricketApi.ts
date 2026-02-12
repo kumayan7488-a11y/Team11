@@ -1,6 +1,6 @@
 import { Match, MatchScore, Player, PlayerRole } from '../types';
 
-const API_KEY = "234c91f8-3972-4fda-a1bc-c7d06c085b0c";
+const API_KEY = "9b1799f1-dbd3-4ad8-a4b8-e9050334a9a3";
 // (अगर चाहो तो तुम अपने दूसरे key को भी इस्तेमाल कर सकते हो)
 const BASE_URL = "https://api.cricapi.com/v1";
 
