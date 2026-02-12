@@ -1,6 +1,6 @@
 import { Match, MatchScore, Player, PlayerRole } from '../types';
 
-const API_KEY = "234c91f8-3972-4fda-a1bc-c7d06c085b0c";
+const API_KEY = "483cf9d7-bf89-41b8-9360-e40693af3c43";
 const BASE_URL = "https://api.cricapi.com/v1";
 
 interface ApiMatch {
